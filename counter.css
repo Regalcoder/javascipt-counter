@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: san-serif;
+  text-align: center;
 }
 
 body {
@@ -21,6 +22,13 @@ body {
   position: relative;
 }
 
+.link {
+  margin-bottom: 100vh;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .block {
   position: absolute;
   top: 50%;
@@ -29,7 +37,7 @@ body {
   height: 70vh;
   width: 60vh;
   border: 2px solid white;
-  box-shadow: black;
+  box-shadow: 4px 4px 10px black;
 }
 
 #container h2 {
@@ -47,23 +55,38 @@ body {
 #buttons {
   height: 50px;
   width: 260px;
-  position: absolute;
+  position: static;
   bottom: 8%;
   left: 70px;
 }
 
 #buttons button {
   height: 50px;
-  width: 120px;
+  /*width: 120px;*/
   background: #1479ff;
   outline: none;
   border-radius: 5px;
   color: #fff;
-  border: 1px solid green;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 2px 10px black;
   cursor: pointer;
 }
 
+#decrement {
+  position: absolute;
+  width: 130px;
+  /*bottom: 10000px;*/
+  right: 138px;
+
+  margin-top: 60px;
+  border-collapse: collapse;
+}
+
 #increment {
+  width: 180px;
+  left: 120px;
   position: absolute;
   right: 0;
 }
+
+  
